@@ -1,0 +1,28 @@
+h3 {
+    color: #1c7f98;
+    text-decoration:underline;
+    
+}
+header {
+    background-color:#323948;
+    color: #E8FDFF;
+}
+body {
+    background-color: whitesmoke;
+}
+main {
+    background-color: white;
+    padding: 16px;
+}
+.post {
+    margin-bottom: 48px;
+}
+.post .user-info img {
+    border-radius:50%;
+}
+/* a:hover {
+    transform:rotate(360deg);
+}
+a {
+    transition: ease-in-out 0.5s;
+} \*
