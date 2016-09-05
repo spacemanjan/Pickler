@@ -4,22 +4,53 @@ h3 {
     
 }
 header {
-    background-color:#323948;
-    color: #E8FDFF;
+    background-color: #80d4ff;
+    color: #Grey;
 }
 body {
-    background-color: whitesmoke;
+    background-color: #white;
 }
 main {
-    background-color: white;
+    background-color: #whitesmoke ;
     padding: 16px;
 }
+h1 {
+    letter-spacing: 4px;
+}
+
 .post {
     margin-bottom: 48px;
 }
 .post .user-info img {
     border-radius:50%;
 }
+
+.user_avatar {
+    border-radius:50%;
+    width:50px;
+    height: auto;
+}
+
+.button {
+    border-radius:5px;
+    box-shadow: 10px 10px 25px #ccccff;
+}
+
+.form-box {
+    margin: 0 auto;
+    background-color: white;
+    width: 350px;
+    height: 600px;
+    border: 1px solid;
+}
+.form-group {
+    text-align: center;
+}
+
+.login-form {
+    
+}
+
 /* a:hover {
     transform:rotate(360deg);
 }
