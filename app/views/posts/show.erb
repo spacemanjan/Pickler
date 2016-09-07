@@ -1,1 +1,5 @@
-<%= erb :'shared/post', locals: { post: @post, allow_new_comment: true }}) %>
+<main role="main">
+
+<%= erb(:'shared/post', { locals: { post: @post, allow_new_comment: true }}) %>
+    
+</main>
