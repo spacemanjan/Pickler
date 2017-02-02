@@ -5,17 +5,20 @@
     <h3><%= post.humanized_time_ago %></h3>
   </div>
   <a class="photo" href="/posts/<%= post.id %>">
-    <img src="<%= post.photo_url %>" alt="post from <%= post.user.username %>">
+    <audio controls> <source src="<%= post.photo_url%>" type=audio/mp3 alt="post from <%= post.user.username %>"> 
+      </audio>
   </a>
   
   <% if current_user && allow_new_comment %>
     <%= erb(:"shared/new_comment", { locals: { post: post }}) %>
   <% end %>
   
+   <a class="photo" href="/posts/<%= post.id %>">
   <div class="actions">
     <%= erb(:"shared/likes", { locals: { post: post }}) %>
     <span class="comment-count"><%= post.comment_count %> comments</span>
-  </div>
+  </div> 
+  </a>
   
   <% erb(:"shared/new_comment", { locals: { post: post }}) %>
   <ul class="comments">

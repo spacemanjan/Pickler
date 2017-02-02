@@ -1,15 +1,23 @@
+.photo {
+    padding: 5px;
+    text-align: center;
+}
+h2 {
+    font-family:'rubik';
+}
 h3 {
-    color: #1c7f98;
-    text-decoration:underline;
+    color: teal;
+    font-family:'rubik';
     
 }
 header {
-    background-color: #80d4ff;
-    color: #Grey;
-    font-family: 'Baloo Tamma', cursive;
-}
-body {
-    background-color: #white;
+        background-color: #99ffff;
+        font-family: 'Baloo Tamma', cursive;
+        height:50px;
+        
+    }
+    body {
+        background-color: #white;
 }
 main {
     background-color: #whitesmoke ;
@@ -20,7 +28,12 @@ h1 {
 }
 
 .post {
+    vertical-align: 5px;
     margin-bottom: 48px;
+    border-color: teal;
+    border-style: solid;
+    border-width: 1px;
+    padding: 40px;
 }
 .post .user-info img {
     border-radius:50%;
@@ -41,13 +54,31 @@ h1 {
     margin: 0 auto;
     background-color: white;
     width: 350px;
-    height: 600px;
+    height: 300px;
     border: 1px solid;
 }
 .form-group {
     text-align: center;
 }
+.parallax {
 
+     background-color: #552587;
+     min-height: 650px;
+     background-image: url(https://media.giphy.com/media/3o7TKsVvxItE9DvWGk/source.gif);
+     background-attachment:fixed;
+     background-position:center;
+     background-repeat:no-repeat;
+     background-size:cover;
+    
+}
+
+.login-info {
+    color:teal;
+}
+
+.login-form {
+     margin: 45px;
+}
 
 /* a:hover {
     transform:rotate(360deg);

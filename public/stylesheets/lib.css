@@ -31,8 +31,16 @@ header {
   align-items: baseline;
 }
 
-header > .login-info {
-  margin-left: auto;
+main > .login-info {
+  position: absolute;
+  top: 75px;
+  right: 75px;
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  color: teal;
+  
+  
 }
 
 main {
