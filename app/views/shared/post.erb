@@ -4,7 +4,7 @@
     <h2><%= post.user.username %></h2>
     <h3><%= post.humanized_time_ago %></h3>
   </div>
-  <a class="photo" href="/posts/<%= post.id %>">
+  <a class="sound" href="/posts/<%= post.id %>">
     <audio controls> <source src="<%= post.photo_url%>" type=audio/mp3 alt="post from <%= post.user.username %>"> 
       </audio>
   </a>
@@ -13,7 +13,7 @@
     <%= erb(:"shared/new_comment", { locals: { post: post }}) %>
   <% end %>
   
-   <a class="photo" href="/posts/<%= post.id %>">
+   <a class="sound" href="/posts/<%= post.id %>">
   <div class="actions">
     <%= erb(:"shared/likes", { locals: { post: post }}) %>
     <span class="comment-count"><%= post.comment_count %> comments</span>

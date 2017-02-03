@@ -1,4 +1,4 @@
-<h2>Signup</h2>
+<center><h2>Signup</h2></center>
 
 <ul class="errors">
     <% @user.errors.full_messages.each do |message| %>
@@ -15,7 +15,7 @@
         <label for "avatar URL">Avatar URL</label>
         <input type="text" id="avatar_url" name="avatar_url" value="<%= @user.avatar_url %>">
     </div>
-    <div class="from-group">
+    <div class="form-group">
         <label for "username">Username</label>
         <input type="text" id="username" name="username" value="<%= @user.username %>">
     </div>
