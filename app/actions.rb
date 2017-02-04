@@ -97,7 +97,7 @@ post '/comments' do
     
     comment.save
     
-    redirect(back)
+    redirect(to('/'))
 end
 post '/likes' do 
     post_id = params[:post_id]

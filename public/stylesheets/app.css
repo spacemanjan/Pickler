@@ -38,6 +38,7 @@ h1 {
 .post .user-info img {
     border-radius:50%;
 }
+.post 
 
 .user_avatar {
     border-radius:50%;
@@ -59,6 +60,7 @@ h1 {
 }
 .form-group {
     text-align: center;
+    line-height: 20px;
 }
 .parallax {
 
