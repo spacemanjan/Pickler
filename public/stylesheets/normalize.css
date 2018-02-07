@@ -178,6 +178,8 @@ sub {
  */
 
 img {
+  width: 100px;
+  height: 50px;
   border: 0;
 }
 

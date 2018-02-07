@@ -17,15 +17,17 @@ header {
         
     }
    body {
-        background-color: #white;
+        background-color: #00000;
 }
 main {
-    background-color: #whitesmoke ;
+    background-color: #00000 ;
     padding: 16px;
 }
 h1 {
     letter-spacing: 4px;
 }
+
+
 
 .post {
     vertical-align: 5px;
@@ -38,8 +40,13 @@ h1 {
 .post .user-info img {
     border-radius:50%;
 }
-.post 
+.post img {
+    border-spacing: 150px;
 
+}
+
+
+.post 
 .user_avatar {
     border-radius:50%;
     width:50px;
