@@ -178,7 +178,7 @@ sub {
  */
 
 img {
-  width: 100px;
+  max-width: 50%;
   height: 50px;
   border: 0;
 }
