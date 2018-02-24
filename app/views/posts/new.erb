@@ -1,4 +1,4 @@
-<center><h2>New Sound</h2></center>
+<center><h2>Post a Vibe</h2></center>
 <ul class="errors">
     <% @post.errors.full_messages.each do |message| %>
         <li><%= message %></li>
@@ -8,8 +8,7 @@
 <form action="/posts" method="POST">
    
     <div class="form-group">
-        <a href="http://www.mailboxdrive.com/upload/">Click to convert Mp3 to url</a>
-        <label for="photo_url">photo_url</label>
+        <label for="photo_url">Photo URL</label>
         <input type="text" id="photo_url" name="photo_url">
     </div>
     <div class="form-group">
