@@ -79,6 +79,7 @@ main {
 
 .user-info img {
   width: 40px;
+    height: auto;
 }
 
 .user-info h2 {

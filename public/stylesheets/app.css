@@ -1,9 +1,8 @@
 .photo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin:auto;
     width: 100%;
-    height:350px;
+    height:100%;
 }
 h2 {
     font-family:'rubik';
@@ -41,13 +40,19 @@ h1 {
     padding: 40px;
 }
 .post .user-info img {
-    border-radius:50%;
+    border-radius:10%;
+    width:25px;
+    height: auto;
+    margin:auto;
 }
 .post img {
+    width:100%;
     border-spacing: 150px;
 
 }
-
+.post .user-info h2 {
+    height:10px;
+}
 
 .post 
 .user_avatar {
