@@ -74,7 +74,7 @@ main {
 
 .user-info {
   display: flex;
-  align-items: baseline;
+  align-items: end;
 }
 
 .user-info img {
@@ -87,7 +87,7 @@ main {
 }
 
 .user-info h3 {
-  margin: 0 0 0 auto;
+  margin: 5px 0 0 auto;
 }
 
 .photo {

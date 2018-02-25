@@ -40,10 +40,10 @@ h1 {
     padding: 40px;
 }
 .post .user-info img {
-    border-radius:10%;
-    width:25px;
+    border-radius:15%;
+    width:30px;
     height: auto;
-    margin:auto;
+    margin:0px;
 }
 .post img {
     width:100%;
