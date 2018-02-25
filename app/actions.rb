@@ -33,6 +33,10 @@ get '/logout' do
     redirect(to('/'))
 end
 
+get '/home' do
+    redirect(to('/'))
+end
+
 get '/' do
     @posts = post.order(created_at: :desc)
     erb(:index)
